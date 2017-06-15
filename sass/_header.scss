@@ -1,0 +1,56 @@
+header{
+
+	background: dodgerblue;
+	padding: 1rem 0;
+
+}
+
+.clear:after{
+
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+.logo{
+
+	font-family: "Times New Roman";
+	border: 1px solid white;
+	padding: 1rem;//<-- logo text
+
+	color: white;
+	display: inline-block;
+	font-size: 4rem;
+	margin-top: 10px;
+	margin-bottom: 1rem;
+	float: left;//<--logo design
+}
+
+.div-logo{
+
+		margin-left: 61px;
+		float: left;
+	}
+
+.div-menu{
+
+	margin-top: 6rem;
+	padding: -5rem;
+}
+
+.header-list li{
+
+	float: left;
+	color: white;
+	font-size: 1.5rem;
+	list-style-type: none;
+	text-align: center;
+	margin-bottom: 1rem;
+	margin-top: -30px;
+	margin-left: 1rem;
+	
+
+}
+
+

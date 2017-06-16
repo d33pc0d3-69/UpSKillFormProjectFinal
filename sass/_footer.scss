@@ -11,7 +11,7 @@ footer
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size:40px;
+    font-size:32px;
     font-family: Calibri;
     margin: auto;
     width: 70%;
@@ -27,6 +27,11 @@ footer
 
 	content: "|";
 	padding: 0 3px;
+}
+
+.ul-footer li:last-child:after{
+
+    content: "";
 }
 
 .circle-ul{

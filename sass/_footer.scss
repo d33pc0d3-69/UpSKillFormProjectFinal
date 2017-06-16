@@ -1,0 +1,61 @@
+footer
+{
+  background: grey;
+  padding: 1rem;
+  clear: both;
+}
+
+.ul-footer{
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size:40px;
+    font-family: Calibri;
+    margin: auto;
+    width: 70%;
+
+    li{
+
+        float: left;
+
+    }
+}
+
+.ul-footer li:after{
+
+	content: "|";
+	padding: 0 3px;
+}
+
+.circle-ul{
+
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.circle-ul li{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background: white;
+    display: inline-block;
+    margin-right: 3rem ;
+}
+
+
+.div-footer-menu{
+
+    width: 100%;
+}
+
+
+.div-footer{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Calibri;
+    margin-top: 1rem;
+
+}

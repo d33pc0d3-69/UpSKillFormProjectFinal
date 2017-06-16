@@ -1,5 +1,10 @@
-@media only screen and (max-width: 59rem){
+@media only screen and (max-width: 75rem){
 	
+* {
+
+	box-sizing: border-box;
+}
+
 	body{
 
 	padding: 0;
@@ -7,7 +12,6 @@
 	height: auto;
 	width: auto;
 	overflow-x: hidden; 
-	box-sizing: inline-block;
 	color: dodgerblue;
 
 }
@@ -24,6 +28,12 @@ header{
 
 }
 
+fieldset{
+
+	border: none;
+	
+}
+
 .logo{
 
 	font-family: "Times New Roman";
@@ -34,6 +44,7 @@ header{
 	display: block;
 	font-size: 4rem;
 	margin-top: 10px;
+	margin-left: 0;
 	margin-bottom: 1rem;
 	float: none;//<--logo design
 
@@ -46,7 +57,11 @@ header{
 	padding: 0;
 }
 
-.header-list li{
+.header-list{
+
+	float:none;
+
+	li{
 
 	float: none;
 	color: white;
@@ -67,7 +82,15 @@ header{
 			background-color: #0089E0;
 		}
 	}
+
+	&:after{
+
+		content: "";
+		padding: 0;
+	}
 	
+}
+
 }
 
 
@@ -120,25 +143,30 @@ header{
 }
 
 article{	
+
     font-size: 32px;
     text-align: center;
+
 
 }
 
 h1{
 	
-    display:block;
     font-weight: bold;
     margin-bottom: 0;
-    padding-top: 1.6rem;
+    margin-top: 3rem;
     font-size: 3rem;
 }
 
 hr{
     width: 68%;
     background: #bebebe;
-    border: 4px solid #ededed;
+    height: 4px;
+    background-color: #ededed;
+    border: none;
     margin-bottom: 3rem;
+
+
 }//END OF CAPTION
 
 .progress-unfloat:after{
@@ -210,5 +238,177 @@ hr{
 }//END OF PROGRESS BAR
 
 
+.div-form{
+
+	width: 100%;
+
 }
+
+
+.sub-container{
+
+	margin: 0 auto;
+	width: 69%;
+	border-radius: 8px;
+	border: none;
+    background: #DFDFDF;
+}
+
+.div-attr{
+
+	padding: 20px;
+	margin-top: -2%;
+	
+}
+
+
+h3{
+
+	font-family: Calibri;
+	font-size: 50px;
+    padding-left: 20px;
+    margin: 0;
+
+}
+
+label{
+    display: block;
+    text-indent: 10px;
+    font-family:sans-serif;
+    font-size: 30px;
+    clear:both;
+
+}
+
+input{
+
+	font-size: 16px;
+	width: 100%;
+
+
+}
+
+.div-fname{
+
+	float: left;
+	margin-right: 2%;
+	width: 50%;
+}
+
+.div-lname{
+
+	float: left;
+	width: 48%;
+	margin-bottom: 5px;
+
+}
+
+.div-float-container{
+
+	margin-bottom: 1rem;
+	margin-top: 0;   
+}
+
+.txtbox{
+
+	padding: 1rem;
+	border-radius: 5px;
+	border: none;
+	
+}
+
+.txtbox-attr{
+
+	
+	width: 100%;
+	margin-bottom: 10px;
+}
+//END OF 1st FORM
+
+.btn{
+  background-color: cornflowerblue;
+  padding: 1rem 6rem;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 69%;
+
+  &.btn-form{
+    font-size: 2rem;
+    margin-bottom:1rem;
+    margin-top: 1rem;
+    margin-right: 16%;
+    text-align: center;
+    float: right;
+}
+
+&.btn-2nd-form-left{
+    margin:1rem;
+    margin-left:0;
+    font-size: 2rem;
+}
+
+&.btn-2nd-form-right{
+    float: right;
+    margin-right: 0;
+
+}
+
+}//END BUTTONS
+
+footer
+{
+  background: grey;
+  padding: 1rem;
+  clear: both;
+}
+
+.ul-footer{
+    list-style-type: none;
+    padding: 0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size:18px;
+    font-family: Calibri;
+}
+
+.ul-footer li:after{
+
+	content: "|";
+	padding: 0 3px;
+}
+
+.circle-ul{
+
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.circle-ul li{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: white;
+    display: inline-block;
+    margin-right: 3rem ;
+}
+
+
+
+.div-footer{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Calibri;
+    margin-top: 1rem;
+
+}
+
+
+
+
+}//END OF MEDIA
+
 

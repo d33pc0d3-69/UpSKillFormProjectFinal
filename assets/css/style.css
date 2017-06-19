@@ -3585,7 +3585,7 @@ span {
 
 /* line 7, ../../sass/_progress-bar.scss */
 .progress {
-  width: 100%;
+  width: 136%;
   margin-bottom: 3rem;
   padding-left: 0;
   counter-reset: step; }
@@ -3594,7 +3594,7 @@ span {
 .progress li {
   list-style-type: none;
   float: left;
-  width: 32.20%;
+  width: 26.20%;
   position: relative;
   text-align: center;
   font-size: 55px; }
@@ -3604,12 +3604,17 @@ span {
   position: relative;
   right: 1%; }
 
-/* line 29, ../../sass/_progress-bar.scss */
+/* line 30, ../../sass/_progress-bar.scss */
+.progress li:nth-child(2) {
+  position: relative;
+  left: 2%; }
+
+/* line 36, ../../sass/_progress-bar.scss */
 .progress li:nth-child(1) {
   position: relative;
-  left: 1%; }
+  left: 2%; }
 
-/* line 35, ../../sass/_progress-bar.scss */
+/* line 42, ../../sass/_progress-bar.scss */
 .progress li:before {
   content: counter(step);
   counter-increment: step;
@@ -3623,7 +3628,7 @@ span {
   border-radius: 100%;
   background-color: #ffffff; }
 
-/* line 49, ../../sass/_progress-bar.scss */
+/* line 56, ../../sass/_progress-bar.scss */
 .progress li:after {
   content: '';
   position: absolute;
@@ -3634,20 +3639,20 @@ span {
   left: -46%;
   z-index: -1; }
 
-/* line 60, ../../sass/_progress-bar.scss */
+/* line 67, ../../sass/_progress-bar.scss */
 .progress li:first-child:after {
   content: none; }
 
-/* line 64, ../../sass/_progress-bar.scss */
+/* line 71, ../../sass/_progress-bar.scss */
 .progress li.active {
   color: white; }
 
-/* line 68, ../../sass/_progress-bar.scss */
+/* line 75, ../../sass/_progress-bar.scss */
 .progress li.active:before {
   border-color: #bebebe;
   background: dodgerblue; }
 
-/* line 73, ../../sass/_progress-bar.scss */
+/* line 80, ../../sass/_progress-bar.scss */
 .progress-container {
   width: 60%;
   margin: 0 auto; }

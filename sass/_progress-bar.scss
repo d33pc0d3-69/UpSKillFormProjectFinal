@@ -6,7 +6,9 @@
 
 .progress{
     
+    width: 100%;
     margin-bottom: 3rem;
+    padding-left: 0;
     counter-reset: step;
 }
 
@@ -33,9 +35,9 @@
 .progress li:before{
     content: counter(step);
     counter-increment: step;
-    width: 85px;
-    height: 85px;
-    line-height: 85px;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
     border: 10px solid #bebebe;
     display: block;
     text-align: center;
@@ -50,7 +52,7 @@
     width: 100%;
     height: 15px;
     background: #bebebe;
-    top: 47.5px;
+    top: 36.5px;
     left: -46%;
     z-index: -1;
 }
@@ -66,4 +68,10 @@
 .progress li.active:before{
     border-color: #bebebe;
     background: dodgerblue;
+}
+
+.progress-container{
+
+    width: 60%;
+    margin: 0 auto;
 }

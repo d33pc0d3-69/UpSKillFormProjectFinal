@@ -1,14 +1,14 @@
 header{
 
-	background: dodgerblue;
-	padding: 4rem;
+	background: #4da6ff;
+	padding: 4%;
 
 }
 
 span{
 
 	display: block;
-	margin-top: -28px;
+	margin-top: -20px;
 }
 
 .clear:after{
@@ -21,37 +21,28 @@ span{
 
 .logo{
 
-	font-family: "Times New Roman";
 	border: 1px solid white;
-	padding: 1rem;//<-- logo text
+	padding: 6%;//<-- logo textl
 
 	color: white;
 	display: inline-block;
-	font-size: 4rem;
-	margin-top: 10px;
-	margin-left: 8rem;
-	margin-bottom: 1rem;
+	font-size: 3.5rem;
 	float: left;//<--logo design
 }
 
-.div-logo{
-
-		margin-left: 61px;
-		margin-right: 1rem;
-		float: left;
-		padding: 0;
-	}
-
 .div-menu{
 
-	margin-top: 4rem;
 	padding: 0;
+	margin-top: 1%;
+	float: left;
+	margin-left: 2%;
+	
 	
 }
 
 .header-list {
 
-	float: left;
+	
 
 	li{
 
@@ -59,10 +50,9 @@ span{
 		color: white;
 		list-style-type: none;
 		text-align: center;
-		font-size: 40px;
+		font-size: 30px;
 		margin-bottom: 1rem;
-		margin-top: -30px;
-
+		
 
 		a{
 
@@ -88,17 +78,17 @@ span{
 
 .search-bar{
 
-	border-radius: 9px;
+	border-radius: 8px;
     border: 1px solid white;
     background-color: transparent;
-    padding: 15px;
-    padding-right: 50px;
-    font-size: 15px;
+    padding: 4%;
+    padding-right: 14%;
+    font-size: 13px;
     float: left;
-    margin-top: -52px;
+    margin-top: -5%;
     color:white;
-    margin-left: 4rem;
-    width: 18%;
+    margin-left: 2%;
+   
 }
 
 
@@ -107,13 +97,15 @@ span{
     top:38px;
     left:1%;
     border: none;
+
 }
 
 .search-icon .fa-search{
 
     position: absolute;
     color: #ffffff;
-    top: -3rem;
-    right: 10.5rem;
-    font-size: 43px;
+    top: -5px;
+    right: 2%;
+    font-size: 20px;
+
 }

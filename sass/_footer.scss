@@ -1,8 +1,9 @@
 footer
 {
-  background: grey;
-  padding: 1rem;
+  background: #cccccc;
+  padding: 1%;
   clear: both;
+  
 }
 
 .ul-footer{
@@ -11,27 +12,38 @@ footer
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size:32px;
+    font-size:1.6rem;
     font-family: Calibri;
     margin: auto;
-    width: 70%;
+    width: 100%;
 
     li{
 
         float: left;
 
+    a{
+
+            color: white;
+            text-decoration: none;
+
+            
+      }
+
+
+    &:after{
+
+            content: "|";
+            padding: 10px;
+        }
+
+        &:last-child:after{
+
+            content: "";
+
+        }
+
+
     }
-}
-
-.ul-footer li:after{
-
-	content: "|";
-	padding: 0 3px;
-}
-
-.ul-footer li:last-child:after{
-
-    content: "";
 }
 
 .circle-ul{
@@ -41,25 +53,26 @@ footer
 }
 
 .circle-ul li{
-    width: 75px;
-    height: 75px;
+    width: 55px;
+    height: 55px;
     border-radius: 100%;
     background: white;
     display: inline-block;
-    margin-right: 3rem ;
+    margin-right: 3%;
 }
 
 
 .div-footer-menu{
 
     width: 100%;
+    margin-left: 13%;
 }
 
 
 .div-footer{
     color: white;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     font-family: Calibri;
     margin-top: 1rem;
 

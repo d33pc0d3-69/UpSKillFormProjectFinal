@@ -19,7 +19,7 @@
 h3{
 
 	font-family: Calibri;
-	font-size: 50px;
+	font-size: 40px;
 	padding-top: 1rem;
     padding-left: 20px;
     margin: 0;
@@ -30,7 +30,7 @@ label{
     display: block;
     text-indent: 10px;
     font-family:sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     clear:both;
 
 }
@@ -62,6 +62,22 @@ fieldset{
 	border-radius: 12px;
 	border: none;
     background: #e6e6e6;
+}
+
+.sub-container-formtwo{
+
+	@extend .sub-container;
+	padding-bottom: 5%;
+}
+
+.div-whitebox{
+
+	background-color: white;
+	border-radius: 12px;
+	width:85%;
+	margin: 0 auto;
+	padding: 4%;
+
 }
 
 .div-attr{
@@ -109,21 +125,32 @@ fieldset{
 	margin-bottom: 10px;
 }
 
+.txtbox-attrtwo{
+
+	background-color: #e6e6e6;
+
+	&.half-size{
+
+		width: 50%;
+	}
+}
+
 
 .btn{
-  background-color: cornflowerblue;
+  background-color: #4da6ff;
   padding: 1rem 6rem;
   border-radius: 10px;
   border: none;
   color: white;
   cursor: pointer;
+  width: 30%;
   
 
   &.btn-form{
     font-size: 2rem;
     margin-bottom:1rem;
-    margin-top: 1rem;
-    margin-right: 16%;
+    margin-top: -2%;
+    margin-right: 10%;
     text-align: center;
     float: right;
 }
@@ -147,4 +174,28 @@ fieldset{
 	font-size: 13px;
 	color: red;
 	margin-bottom: 5px;
+}
+
+.btntabs{
+	
+	float:left;
+	border-radius: 12px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border: none;
+	width: 23rem;
+	padding: 1rem;
+	background-color: #2DA8C9;
+}
+
+
+.btntabs-left{
+
+	@extend .btn
+}
+
+.btntabs-right{
+
+	@extend .btntabs-left;
+	width: 23rem;
 }

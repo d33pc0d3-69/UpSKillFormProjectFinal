@@ -183,19 +183,26 @@ fieldset{
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
 	border: none;
-	width: 23rem;
-	padding: 1rem;
 	background-color: #2DA8C9;
+	font-size: 41px;
+	
+	
 }
 
 
 .btntabs-left{
 
-	@extend .btn
+	@extend .btntabs;
+	width: 20rem;
+	
 }
 
 .btntabs-right{
 
-	@extend .btntabs-left;
-	width: 23rem;
+	@extend .btntabs;
+	width: 20rem;
+	margin-left: 0;
+
+
 }
+

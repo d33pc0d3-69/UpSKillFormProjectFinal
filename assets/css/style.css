@@ -3762,7 +3762,7 @@ fieldset {
     width: 50%; }
 
 /* line 139, ../../sass/_body.scss */
-.btn, .btntabs-left, .btntabs-right {
+.btn {
   background-color: #4da6ff;
   padding: 1rem 6rem;
   border-radius: 10px;
@@ -3771,7 +3771,7 @@ fieldset {
   cursor: pointer;
   width: 30%; }
   /* line 149, ../../sass/_body.scss */
-  .btn.btn-form, .btn-form.btntabs-left, .btn-form.btntabs-right {
+  .btn.btn-form {
     font-size: 2rem;
     margin-bottom: 1rem;
     margin-top: -2%;
@@ -3779,12 +3779,12 @@ fieldset {
     text-align: center;
     float: right; }
   /* line 158, ../../sass/_body.scss */
-  .btn.btn-2nd-form-left, .btn-2nd-form-left.btntabs-left, .btn-2nd-form-left.btntabs-right {
+  .btn.btn-2nd-form-left {
     margin: 1rem;
     margin-left: 0;
     font-size: 2rem; }
   /* line 164, ../../sass/_body.scss */
-  .btn.btn-2nd-form-right, .btn-2nd-form-right.btntabs-left, .btn-2nd-form-right.btntabs-right {
+  .btn.btn-2nd-form-right {
     float: right;
     margin-right: 0; }
 
@@ -3795,19 +3795,23 @@ fieldset {
   margin-bottom: 5px; }
 
 /* line 179, ../../sass/_body.scss */
-.btntabs {
+.btntabs, .btntabs-left, .btntabs-right {
   float: left;
   border-radius: 12px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   border: none;
-  width: 23rem;
-  padding: 1rem;
-  background-color: #2DA8C9; }
+  background-color: #2DA8C9;
+  font-size: 41px; }
 
-/* line 197, ../../sass/_body.scss */
+/* line 193, ../../sass/_body.scss */
+.btntabs-left {
+  width: 20rem; }
+
+/* line 200, ../../sass/_body.scss */
 .btntabs-right {
-  width: 23rem; }
+  width: 20rem;
+  margin-left: 0; }
 
 /* line 1, ../../sass/_footer.scss */
 footer {
@@ -4158,7 +4162,7 @@ hr {
     margin-bottom: 10px; }
 
   /* line 326, ../../sass/_media.scss */
-  .btn, .btntabs-left, .btntabs-right {
+  .btn {
     background-color: cornflowerblue;
     padding: 1rem 6rem;
     border-radius: 10px;
@@ -4167,7 +4171,7 @@ hr {
     cursor: pointer;
     width: 69%; }
     /* line 335, ../../sass/_media.scss */
-    .btn.btn-form, .btn-form.btntabs-left, .btn-form.btntabs-right {
+    .btn.btn-form {
       font-size: 2rem;
       margin-bottom: 1rem;
       margin-top: 1rem;
@@ -4175,12 +4179,12 @@ hr {
       text-align: center;
       float: right; }
     /* line 344, ../../sass/_media.scss */
-    .btn.btn-2nd-form-left, .btn-2nd-form-left.btntabs-left, .btn-2nd-form-left.btntabs-right {
+    .btn.btn-2nd-form-left {
       margin: 1rem;
       margin-left: 0;
       font-size: 2rem; }
     /* line 350, ../../sass/_media.scss */
-    .btn.btn-2nd-form-right, .btn-2nd-form-right.btntabs-left, .btn-2nd-form-right.btntabs-right {
+    .btn.btn-2nd-form-right {
       float: right;
       margin-right: 0; }
 

@@ -3691,15 +3691,34 @@ label {
 input {
   width: 100%; }
 
-/* line 45, ../../sass/_body.scss */
+/* line 44, ../../sass/_body.scss */
 fieldset {
   border: none; }
 
-/* line 51, ../../sass/_body.scss */
+/* line 50, ../../sass/_body.scss */
+.mssge {
+  width: 2.1%;
+  transform: scale(2);
+  -ms-transform: scale(2);
+  /* IE */
+  -moz-transform: scale(2);
+  /* FF */
+  -webkit-transform: scale(2);
+  /* Safari and Chrome */
+  -o-transform: scale(2);
+  /* Opera */
+  margin-left: 2%;
+  border: none; }
+
+/* line 62, ../../sass/_body.scss */
+.mssge-label {
+  display: inline-block; }
+
+/* line 69, ../../sass/_body.scss */
 .div-form {
   width: 100%; }
 
-/* line 58, ../../sass/_body.scss */
+/* line 76, ../../sass/_body.scss */
 .sub-container, .sub-container-formtwo {
   margin: 0 auto;
   width: 80%;
@@ -3707,11 +3726,12 @@ fieldset {
   border: none;
   background: #e6e6e6; }
 
-/* line 67, ../../sass/_body.scss */
+/* line 85, ../../sass/_body.scss */
 .sub-container-formtwo {
-  padding-bottom: 5%; }
+  padding-bottom: 5%;
+  margin-bottom: 5%; }
 
-/* line 73, ../../sass/_body.scss */
+/* line 92, ../../sass/_body.scss */
 .div-whitebox {
   background-color: white;
   border-radius: 12px;
@@ -3719,49 +3739,57 @@ fieldset {
   margin: 0 auto;
   padding: 4%; }
 
-/* line 83, ../../sass/_body.scss */
+/* line 102, ../../sass/_body.scss */
 .div-attr {
   padding: 4%;
   margin: 6%;
   margin-top: 0;
   padding-top: 0; }
 
-/* line 92, ../../sass/_body.scss */
+/* line 111, ../../sass/_body.scss */
 .div-fname {
   float: left;
   margin-right: 2%;
   width: 50%; }
 
-/* line 99, ../../sass/_body.scss */
+/* line 118, ../../sass/_body.scss */
 .div-lname {
   float: left;
   width: 48%;
   margin-bottom: 5px; }
 
-/* line 107, ../../sass/_body.scss */
+/* line 126, ../../sass/_body.scss */
 .div-float-container {
   margin-bottom: 1rem;
   margin-top: 0; }
 
-/* line 113, ../../sass/_body.scss */
+/* line 132, ../../sass/_body.scss */
 .txtbox {
   padding: 20px;
   border-radius: 10px;
   border: none; }
 
-/* line 121, ../../sass/_body.scss */
+/* line 140, ../../sass/_body.scss */
 .txtbox-attr {
   width: 100%;
   margin-bottom: 10px; }
 
-/* line 128, ../../sass/_body.scss */
+/* line 147, ../../sass/_body.scss */
 .txtbox-attrtwo {
   background-color: #e6e6e6; }
-  /* line 132, ../../sass/_body.scss */
+  /* line 151, ../../sass/_body.scss */
   .txtbox-attrtwo.half-size {
     width: 50%; }
 
-/* line 139, ../../sass/_body.scss */
+/* line 157, ../../sass/_body.scss */
+textarea {
+  width: 100%;
+  border-radius: 15px;
+  border: none;
+  padding-left: 18px;
+  padding-top: 10px; }
+
+/* line 167, ../../sass/_body.scss */
 .btn {
   background-color: #4da6ff;
   padding: 1rem 6rem;
@@ -3770,31 +3798,28 @@ fieldset {
   color: white;
   cursor: pointer;
   width: 30%; }
-  /* line 149, ../../sass/_body.scss */
+  /* line 177, ../../sass/_body.scss */
   .btn.btn-form {
     font-size: 2rem;
     margin-bottom: 1rem;
     margin-top: -2%;
-    margin-right: 10%;
+    margin-left: 10%;
     text-align: center;
-    float: right; }
-  /* line 158, ../../sass/_body.scss */
-  .btn.btn-2nd-form-left {
-    margin: 1rem;
-    margin-left: 0;
-    font-size: 2rem; }
-  /* line 164, ../../sass/_body.scss */
-  .btn.btn-2nd-form-right {
-    float: right;
-    margin-right: 0; }
+    float: left; }
+  /* line 186, ../../sass/_body.scss */
+  .btn.btn-right {
+    margin-left: 20%; }
+  /* line 191, ../../sass/_body.scss */
+  .btn.btn-1form {
+    margin-left: 60%; }
 
-/* line 172, ../../sass/_body.scss */
+/* line 199, ../../sass/_body.scss */
 .label-error {
   font-size: 13px;
   color: red;
   margin-bottom: 5px; }
 
-/* line 179, ../../sass/_body.scss */
+/* line 206, ../../sass/_body.scss */
 .btntabs, .btntabs-left, .btntabs-right {
   float: left;
   border-radius: 12px;
@@ -3804,11 +3829,15 @@ fieldset {
   background-color: #2DA8C9;
   font-size: 41px; }
 
-/* line 193, ../../sass/_body.scss */
+/* line 220, ../../sass/_body.scss */
+.btntabs:focus, .btntabs-left:focus, .btntabs-right:focus {
+  background-color: white; }
+
+/* line 228, ../../sass/_body.scss */
 .btntabs-left {
   width: 20rem; }
 
-/* line 200, ../../sass/_body.scss */
+/* line 237, ../../sass/_body.scss */
 .btntabs-right {
   width: 20rem;
   margin-left: 0; }

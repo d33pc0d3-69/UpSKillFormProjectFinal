@@ -164,6 +164,12 @@ textarea{
 
 }
 
+
+fieldset:not(:first-of-type){
+
+	display: none;
+}
+
 .btn{
   background-color: #4da6ff;
   padding: 1rem 6rem;

@@ -63,12 +63,18 @@ fieldset{
 
 	display: inline-block;
 
-
 }
 
 .div-form{
 
 	width: 100%;
+
+}
+
+
+.hide{
+
+	display: none;
 
 }
 
@@ -163,7 +169,6 @@ textarea{
 	padding-top: 10px;
 
 }
-
 
 fieldset:not(:first-of-type){
 

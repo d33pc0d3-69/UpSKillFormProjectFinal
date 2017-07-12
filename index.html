@@ -25,283 +25,165 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIVAMUS</title>
 </head>
-
 <body>
-	
-		<header><!--header start -->
-			
-			<div class="container clear"><!--Header Box-->
-			
-			 
+	<header>
+		<div class="container clear">
 			<div class="col2">
-				
 				<div class="logo">
-
-					VIVA<span> MUS</span>
-			
+					VIVA<span>MUS</span>
 				</div><!--logo-->
-
-					
-			</div>
-				
-			 
+			</div><!--col2-->
 			<div class="col10">
-				
 				<div class="clear">
-					
-						<div class="col9">
-							
-							<div class="div-menu"><!-- menu -->
-
-					<ul class="header-list"><!-- links -->
-
-						<li><a href="#">Bibendum</a></li>
-						<li><a href="#">Sollicitum</a></li>
-						<li><a href="#">Metus</a></li>
-						<li><a href="#">Egestas</a></li>
-
-					</ul>
-
+					<div class="col9">
+						<div class="div-menu">
+							<ul class="header-list">
+								<li><a href="#">Bibendum</a></li>
+								<li><a href="#">Sollicitum</a></li>
+								<li><a href="#">Metus</a></li>
+								<li><a href="#">Egestas</a></li>
+							</ul><!--links-->
+						</div><!--menu-->
+					</div><!--col9-->
+					<div class="col3">
+						<div class="search-icon">
+							<i class="fa fa-search"></i>
+							<input type="text" class="search-bar">
+						</div>
+					</div><!--col3-->
 				</div>
-
-
-						</div>
-
-
-						<div class="col3">
-
-							
-							<div class="search-icon"> 
-								<i class="fa fa-search"></i>
-								<input class="search-bar" type="text" name="" value=""/>
-
-							</div>
-							
-						</div>
-
-				</div>	
-				
-
-			</div>
-
-		
-
+			</div><!--col10-->
 		</div>
-		
-	</header><!--header-->
+	</header><!--Header Box-->
 
+		<div class="container">
+			<div id="data-container">
+				<div class="div-caption">
+					<article id="art">
+						<h1>In euismod sapien eu maximus tempus</h1>
+		    			<p>Vestibulum bibendum posuere dui, in pharetra est hendrerit ac.<br>
+		   			 Integer posuere metus lacus</p>
+		   			</article>
 
-	<div class="container">
+					<article class="a2">
+						<h1>Vivamus interdum nunc ac sem fringilla</h1>
+						<p>Duis risus urna, mattis eget justo non, gravida ultrices diam</p>
+					</article>
+				</div><!--div-caption-->
+				<hr>
+				<!---START need class container-->
+				<ul id="ul-prog" class="progress progress-unfloat">
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+				</ul><!--Progress Bar-->
+				<!---START need class container-->
+				<form method="POST" id="formdata" class="div-form">
+				<!---START need div only!-->
+					<fieldset>
+						<div class="sub-container">
+							<h3>About You</h3>
+							<div class="div-attr">
+								<div class="div-float-container">
+									<div class="div-fname">
+				    					<label>First Name*</label>
+				    					<label class="label-error">ERROR!</label>
+							    		<input type="text" id="fname" name="fname" class="txtbox"/>
+									</div>
+									<div class="div-lname">
+										<label>Last Name*</label>
+										<label class="label-error">ERROR!</label>
+										<input type="text" id="lname" name="lname" class="txtbox"/>
+									</div>
+								</div><!---div-float-container-->
+								<label class="clear">Email Address*</label>
+								<label class="label-error">ERROR!</label>
+								<input type="text" id="email" name="email" class="txtbox txtbox-attr" />
 
-		<div class="div-caption">
-		
-			<article>
-				<h1>In euismod sapien eu maximus tempus</h1>
-    			<p>Vestibulum bibendum posuere dui, in pharetra est hendrerit ac.<br>
-   			 Integer posuere metus lacus</p>
-   			</article>
-		
-		</div><!--caption-->
+								<label>Mobile Number*</label>
+								<label class="label-error">ERROR!</label>
+								<input type="text" name="mnumber" class="txtbox txtbox-attr" />
+							</div><!---div-attr-->
+						</div><!---sub-container-->
+						<a class="btn btn-form btn-1form next">Next</a> 
+					</fieldset><!---fs1-->
+					<fieldset>
+						<div class="sub-container-formtwo">
+							<h3>Donation</h3>
+							<!--form tab-->
+							<button class="btntabs-left">Paypal</button>
+						    <button class="btntabs-right">Credit Card</button>
+						    <div class="div-whitebox">
+				    			<label>Donation Amount*</label>
+				    	    	<label class="label-error">ERROR!</label>
+				    	    	<input type="text" name="donation" class="txtbox txtbox-attr txtbox-attrtwo half-size" />
 
-	</div>
+				    	    	<label>Card Holder Name*</label>
+				    	    	<label class="label-error">ERROR!</label>
+				    	    	<input type="text" name="choldername" class="txtbox txtbox-attr txtbox-attrtwo" />
 
-	
+				    	    	<label>Credit Card No.*</label>
+				    	    	<label class="label-error">ERROR!</label>
+				    	    	<input type="text" name="ccardnumber" class="txtbox txtbox-attr txtbox-attrtwo" />
 
-	<hr/>
+				    	    	<label>Security Card Code*</label>
+				    	    	<label class="label-error">ERROR!</label>
+				    	    	<input type="text" name="ccardcode" class="txtbox txtbox-attr txtbox-attrtwo half-size" />
 
-
-	<div class="container">	<!--Progress Bar Box-->
-		
-			<ul class="progress progress-unfloat"><!--Progress Bar-->
-	   			 <li class="active"></li>
-	   			 <li></li>
-	   			 <li></li>
-			</ul>
-    <!--End of Progress Bar-->
-	</div>
-
-<div class="container">
-
-<form accept-charset="utf-8" class="div-form">
-
-	<div>
-		
-    	<fieldset>
-
-    		<div class="sub-container"><!--First Form -->
-    			
-				<div>
-
-    				<h3>About You</h3>
-    			
-    			</div>
-
-				<div class="div-attr">
-
-				<div class="div-float-container">
-
-					<div class="div-fname"> 
-    					<label>First Name*</label>
-    					<label class="label-error">ERROR!</label>
-			    		<input type="text" name="fname" class="txtbox"/>
-			    	</div>
-
-			    	<div class="div-lname">
-			    		<label>Last Name*</label>
-			    		<label class="label-error">ERROR!</label>
-			    		<input type="text" name="lname" class="txtbox"/>
-			    	</div>
-
-				</div>
-					
-			    		<label class="clear">Email Address*</label>
-			    		<label class="label-error">ERROR!</label>
-			    		<input type="text" name="email" class="txtbox txtbox-attr" />
-
-			    		<label>Mobile Number*</label>
-			    		<label class="label-error">ERROR!</label>
-			    		<input type="text" name="mnumber" class="txtbox txtbox-attr" />
-			    		
-			    		
-				</div>
-						
-    		</div>
-						
-					<a class="btn btn-form btn-1form next">Next</a> 
-    		
-    	</fieldset><!--First Form -->
-
-		
-		<fieldset>
-    		
-				<div class="sub-container-formtwo">
-					
-					<div>
-
-    				<h3>Donation</h3>
-    			
-    				</div>
-					
-				
-						
-						<button class="btntabs-left">Paypal</button>
-					    <button class="btntabs-right">Credit Card</button>
-
-					<div class="div-whitebox">
-
-					<label>Donation Amount*</label>
-			    	<label class="label-error">ERROR!</label>
-			    	<input type="text" name="donation" class="txtbox txtbox-attr txtbox-attrtwo half-size" />
-
-			    	<label>Card Holder Name*</label>
-			    	<label class="label-error">ERROR!</label>
-			    	<input type="text" name="choldername" class="txtbox txtbox-attr txtbox-attrtwo" />
-
-			    	<label>Credit Card No.*</label>
-			    	<label class="label-error">ERROR!</label>
-			    	<input type="text" name="ccardnumber" class="txtbox txtbox-attr txtbox-attrtwo" />
-
-			    	<label>Security Card Code*</label>
-			    	<label class="label-error">ERROR!</label>
-			    	<input type="text" name="ccardcode" class="txtbox txtbox-attr txtbox-attrtwo half-size" />
-
-			    	<label>Expiry Date*</label>
-			    	<label class="label-error">ERROR!</label>
-			    	<input type="date" name="exdate" class="txtbox txtbox-attr txtbox-attrtwo half-size" />
-
-					</div><!--white box-->
-					
-				</div><!--tab selector -->
-				
-				<a class="btn btn-form back">Back</a>
-    			<a class="btn btn-form btn-right next">Proceed</a>
-
-    	</fieldset><!--Second Form -->
-
-
-		<fieldset>
-			
-				<div class="sub-container">
-
-
-					<div>
-
-    				<h3>Comment Field</h3>
-    			
-    				</div>
-
-    				<div class="div-attr">
-
-						<label>Your Message</label>
-						<textarea rows="12px" cols="30px"></textarea>
-						<input type="checkbox" class="mssge" />
-						<label class="mssge-label">Keep me Anonymous</label>
-
-    				</div>
-
-				</div>
-
-				<a class="btn btn-form back">Back</a>
-    			<a  class="btn btn-form btn-right">Finish</a>
-
-		</fieldset><!--Third Form -->
-
-
-	</div><!--Wrapper-->
-	
-		
-    </form><!--FORMS-->
-
-    </div><!--Container-->
-
+				    	    	<label>Expiry Date*</label>
+				    	    	<label class="label-error">ERROR!</label>
+				    	    	<input type="date" name="exdate" class="txtbox txtbox-attr txtbox-attrtwo half-size" />
+						    </div><!--whitebox-->
+						</div><!--sub-container-formtwo-->
+						<a class="btn btn-form back">Back</a>
+		    			<a class="btn btn-form btn-right next">Proceed</a>
+					</fieldset><!--fs2-->
+					<fieldset>
+						<div class="sub-container">
+							<h3>Comment Field</h3>
+							<div class="div-attr">
+								<label>Your Message</label>
+								<textarea rows="12px" cols="30px"></textarea>
+								<input type="checkbox" class="mssge" />
+								<label class="mssge-label">Keep me Anonymous</label>
+							</div><!--div-attr-->
+						</div><!--sub-container-->
+							<a class="btn btn-form back">Back</a>
+			    			<a  id="btn-finish" class="btn btn-form btn-right">Finish</a>
+					</fieldset><!--fs3-->
+				</form>
+			</div><!--data-container-->
+			<div>jgljldkjgl</div>
+		</div><!--container-->
 	<footer>
-
-	<div class="container">
-    	<ul class="circle-ul">
-
-	        <li></li>
-	        <li></li>
-	        <li></li>
-	        <li></li>
-	        <li></li>
-
-   		 </ul>
-
-	    <div class="div-footer-menu">
-
-	    <ul class="ul-footer clear">
-	        <li><a href="#">Pellentesque</a></li>
-	        <li><a href="#">Et interdum</a></li>
-	        <li><a href="#">Neque</a></li>
-	        <li><a href="#">Integer</a></li>
-	        <li><a href="#">Ullamcorper</a></li>
-	        <li><a href="#">Sagittis</a></li>
-	    </ul>
-
-
-        </div>
-
-	    <div class="div-footer">Copyright © 2015 Proin eget ipsum libero<br>
-
-	    All Rights Reserved.
-	    </div>
-
-	   
-
-		</div>
-
-	</footer>
-<!--Footer Section-->
-
-
-
-
+		<div class="container">
+	    	<ul class="circle-ul">
+		        <li></li>
+		        <li></li>
+		        <li></li>
+		        <li></li>
+		        <li></li>
+	   		 </ul>
+		    <div class="div-footer-menu">
+			    <ul class="ul-footer clear">
+			        <li><a href="#">Pellentesque</a></li>
+			        <li><a href="#">Et interdum</a></li>
+			        <li><a href="#">Neque</a></li>
+			        <li><a href="#">Integer</a></li>
+			        <li><a href="#">Ullamcorper</a></li>
+			        <li><a href="#">Sagittis</a></li>
+			    </ul>
+	        </div>
+		    <div class="div-footer">
+			    Copyright © 2015 Proin eget ipsum libero<br>
+			    All Rights Reserved.
+		    </div>
+	 	</div>
+	</footer><!--footer-->
 <!--JS Section-->
-
 <script src="assets/javascripts/jquery-3.2.1.min.js"></script>
 <script src="assets/javascripts/jquery-ui.min.js"></script>
 <script src="assets/javascripts/formanimate.js"></script>
-
-
+<script src="assets/javascripts/core-js.js"></script>
 </body>
 </html>

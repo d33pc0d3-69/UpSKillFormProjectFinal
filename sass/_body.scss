@@ -15,7 +15,6 @@
 }
 
 
-
 h3{
 
 	font-family: Calibri;
@@ -145,7 +144,6 @@ fieldset{
 
 .txtbox-attr{
 
-	
 	width: 100%;
 	margin-bottom: 10px;
 }
@@ -227,14 +225,12 @@ fieldset:not(:first-of-type){
 	
 }
 
-
 .btntabs:focus{
 
 
 	background-color: white;
 
 }
-
 
 .btntabs-left{
 
@@ -243,13 +239,23 @@ fieldset:not(:first-of-type){
 	
 }
 
-
-
 .btntabs-right{
 
 	@extend .btntabs;
 	width: 20rem;
 	margin-left: 0;
 
+}
+
+.ack-message{
+
+	text-align: center;
+	color: black;
+	font-size: 1rem;
+	display: block !important;
+}
+
+.end-message{
+	display: none;
 }
 

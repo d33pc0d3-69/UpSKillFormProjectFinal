@@ -46,9 +46,9 @@
 						</div><!--menu-->
 					</div><!--col9-->
 					<div class="col3">
-						<div class="search-icon">
+						<div class="search">
 							<i class="fa fa-search"></i>
-							<input type="text" class="search-bar">
+							<input type="text">
 						</div>
 					</div><!--col3-->
 				</div>
@@ -78,7 +78,7 @@
 					<li></li>
 				</ul><!--Progress Bar-->
 				<!---START need class container-->
-				<form method="POST" id="formdata" class="div-form">
+				<form action="" method="POST" id="formdata" name="formval" class="div-form">
 				<!---START need div only!-->
 					<fieldset>
 						<div class="sub-container">
@@ -87,25 +87,21 @@
 								<div class="div-float-container">
 									<div class="div-fname">
 				    					<label>First Name*</label>
-				    					<label class="label-error">ERROR!</label>
 							    		<input type="text" id="fname" name="fname" class="txtbox"/>
 									</div>
 									<div class="div-lname">
 										<label>Last Name*</label>
-										<label class="label-error">ERROR!</label>
 										<input type="text" id="lname" name="lname" class="txtbox"/>
 									</div>
 								</div><!---div-float-container-->
 								<label class="clear">Email Address*</label>
-								<label class="label-error">ERROR!</label>
 								<input type="text" id="email" name="email" class="txtbox txtbox-attr" />
 
 								<label>Mobile Number*</label>
-								<label class="label-error">ERROR!</label>
 								<input type="text" name="mnumber" class="txtbox txtbox-attr" />
 							</div><!---div-attr-->
 						</div><!---sub-container-->
-						<a class="btn btn-form btn-1form next">Next</a> 
+						<a type="next" class="btn btn-form btn-1form next">Next</a> 
 					</fieldset><!---fs1-->
 					<fieldset>
 						<div class="sub-container-formtwo">
@@ -115,24 +111,19 @@
 						    <button class="btntabs-right">Credit Card</button>
 						    <div class="div-whitebox">
 				    			<label>Donation Amount*</label>
-				    	    	<label class="label-error">ERROR!</label>
-				    	    	<input type="text" name="donation" class="txtbox txtbox-attr txtbox-attrtwo half-size" />
+				    	    	<input type="text" id="donation" name="donation" class="txtbox txtbox-attr txtbox-attrtwo half-size" />
 
 				    	    	<label>Card Holder Name*</label>
-				    	    	<label class="label-error">ERROR!</label>
-				    	    	<input type="text" name="choldername" class="txtbox txtbox-attr txtbox-attrtwo" />
+				    	    	<input type="text" id="choldername" name="choldername" class="txtbox txtbox-attr txtbox-attrtwo" />
 
 				    	    	<label>Credit Card No.*</label>
-				    	    	<label class="label-error">ERROR!</label>
-				    	    	<input type="text" name="ccardnumber" class="txtbox txtbox-attr txtbox-attrtwo" />
+				    	    	<input type="text" id="ccardnumber" name="ccardnumber" class="txtbox txtbox-attr txtbox-attrtwo" />
 
 				    	    	<label>Security Card Code*</label>
-				    	    	<label class="label-error">ERROR!</label>
-				    	    	<input type="text" name="ccardcode" class="txtbox txtbox-attr txtbox-attrtwo half-size" />
+				    	    	<input type="text" id="ccardcode" name="ccardcode" class="txtbox txtbox-attr txtbox-attrtwo half-size" />
 
 				    	    	<label>Expiry Date*</label>
-				    	    	<label class="label-error">ERROR!</label>
-				    	    	<input type="date" name="exdate" class="txtbox txtbox-attr txtbox-attrtwo half-size" />
+				    	    	<input type="date" id="exdate" name="exdate" class="txtbox txtbox-attr txtbox-attrtwo half-size" />
 						    </div><!--whitebox-->
 						</div><!--sub-container-formtwo-->
 						<a class="btn btn-form back">Back</a>
@@ -144,12 +135,12 @@
 							<div class="div-attr">
 								<label>Your Message</label>
 								<textarea rows="12px" cols="30px"></textarea>
-								<input type="checkbox" class="mssge" />
+								<input id="message" type="checkbox" class="mssge" />
 								<label class="mssge-label">Keep me Anonymous</label>
 							</div><!--div-attr-->
 						</div><!--sub-container-->
 							<a class="btn btn-form back">Back</a>
-			    			<a  id="btn-finish" class="btn btn-form btn-right">Finish</a>
+			    			<a class="btn btn-form btn-right finish">Finish</a>
 					</fieldset><!--fs3-->
 				</form>
 			</div><!--data-container-->
@@ -183,6 +174,8 @@
 <!--JS Section-->
 <script src="assets/javascripts/jquery-3.2.1.min.js"></script>
 <script src="assets/javascripts/jquery-ui.min.js"></script>
+<script src="assets/javascripts/jquery.validate.min.js"></script>
+<<script src="assets/javascripts/form-validation.js"></script>
 <script src="assets/javascripts/formanimate.js"></script>
 <script src="assets/javascripts/core-js.js"></script>
 </body>
